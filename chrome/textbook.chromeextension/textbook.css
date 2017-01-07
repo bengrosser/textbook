@@ -1,0 +1,90 @@
+/* 
+ * Textbook CSS
+ * Grosser, 2017
+ *
+ * Removes all images from Facebook
+ * This CSS file presents the default state of the app
+ */
+
+
+div[role="img"],
+img,	
+._4ay8, 
+._6ks,  /* linked article image holders */
+._9--,  /* reaction images (like, haha, etc) */
+.img,   /* some images are tagged with an img class instead of using img tag */
+._2n_9, /* Page cover images -- have to target higher for some reason */
+._3j7l, /* comment reaction image icons */
+._51mq, /* newsfeed item title icons (location, feelings, etc.) */
+._5nxw, /* 3D images/movies */
+button._q52, /* 3D image nav icons */
+.uiMediaThumbImg, /* photos browser thumbnails */ 
+.UFILikeLink::before, /* like/share/comment icons */
+.comment_link::before, /* like/share/comment icons */
+.share_action_link::before, /* like/share/comment icons */
+._qk8, /* ? */
+.webMessengerMessageGroup img._50dv /* profile images in messenger */ 
+{ 
+  opacity:0; 
+} 
+
+/* videos */
+img._3chq,  
+._1445,
+video._ox1,
+._3x-2 video { 
+  opacity:0; 
+}
+
+._4n1w, /* X years ago see your memories banners */ 
+._4m1w /* X years ago see your memories banners */
+{ 
+  opacity:0; 
+  background-position:-2000px, -2000px !important;
+} 
+
+/* restore a few items with more specificity */
+._1oxj ._3j7l,  /* restore Like icon in reactions popup */
+._1gr3 i.img,   /* restore "..." img in status editor */
+._6m3,          /* linked item descriptions */
+._3u17 i        /* X buttons on status post box, etc. */
+{ 
+  opacity:1; 
+} 
+
+/* placeholders for uploaded images during status composition */
+._jfc { background-color:#ccc; }
+
+
+/* ------------- */
+/*    OPTIONS    */
+/* ------------- */
+
+/* Option 1 - Show images in a user's Photos index */
+/* restore images in slideshow viewer  -- default SHOW */
+.stage img { opacity:1; } 
+
+/* Option 2 - Show images in a user's Photos index */
+/* restore image thumbnails in Photos browser -- default HIDE */
+.uiMediaThumbImg, 
+.albumThumbLink img,  /* video thumbs on Photos */
+.fbPhotoStarGridElement img, .fbPhotoStarGridElement i,
+.fbPhotoSnowLiftContainer img, .fbPhotoSnowLiftContainer i 
+{ 
+  opacity:1; 
+}
+
+/* Option 3 - Show images in Chat conversations */
+/* restore images in chat tab and messenger interface -- default SHOW */
+._52kr, 
+.webMessengerMessageGroup img,
+.conversation img,
+#webMessengerRecentMessages img,
+#wmMasterViewThreadlist img,
+._4-of img, ._4-of i {          /* messenger img browser slideshow */
+  opacity:1; 
+} 
+
+/* Option 4 - Show Facebook f logo image -- default HIDE */
+/* show FB logo */
+._2md { opacity:0; }
