@@ -1,3 +1,6 @@
+/* drawn from BrockA's gist at https://gist.github.com/BrockA/2625891 */
+/* thank you Brock! */
+
 /*--- waitForKeyElements():  A utility function, for Greasemonkey scripts,
     that detects and handles AJAXed content.
 
