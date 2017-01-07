@@ -5,7 +5,7 @@ var fbdURL = 'http://bengrosser.com/projects/facebook-demetricator';
 $(document).ready(function() {
 
     // for testing, clears out storage
-    //chrome.storage.local.clear();
+//    chrome.storage.local.clear();
 
       // link clicks need explicit handling
       $('.tblnk').click(function() { chrome.tabs.create({url: tbURL}); });

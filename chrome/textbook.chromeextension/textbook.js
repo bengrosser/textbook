@@ -21,7 +21,7 @@ $(document).ready(function() {
         sendResponse({farewell: "msg rcvd"});
     });
 
-    console.log("Textbook (2017), ver. 1.1.0 -- by Ben Grosser");
+    console.log("Textbook (2017), ver. 1.0.1 -- by Ben Grosser");
 
     // on first load, grab all saved data and respond
     chrome.storage.local.get("on", function(data) {
@@ -29,7 +29,7 @@ $(document).ready(function() {
             chrome.storage.local.set({"on":true}, function() {
             });
         } else {
-            if(data.on) {
+            if(data.on || data.on == undefined) {
                 console.log("Textbook: hide images is ON.");
                 $('#notextbook').remove();
 

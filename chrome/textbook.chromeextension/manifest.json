@@ -1,6 +1,6 @@
 {
     "name": "Textbook",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Removes all images from Facebook, leaving only the text",
     "homepage_url": "http://bengrosser.com/projects/textbook/",
     "manifest_version": 2,
