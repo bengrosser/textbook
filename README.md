@@ -10,7 +10,15 @@ By default, images on a user's Photos index, images in the slideshow viewer, and
 
 Textbook is released as a Chrome extension and as a userscript for use with Greasemonkey in Firefox. Other browsers are likely supportable using Greasmonkey or an equivalent, but have not been tested.
 
+### Options
+
+Both browser implementations include an option to toggle the image hiding. In Chrome, click on the extension's icon adjacent to the location bar to manipulate the toggle. In Firefox, click the Greasemonkey extension, select Userscript Commands->Toggle Textbook Image Hiding.
+
 ### Files
 
 * chrome/\* source for the Chrome extension
 * firefox/\* source for the Firefox userscript
+
+### Related Projects
+
+* [Facebook Demetricator](http://github.com/bengrosser/facebook-demetricator)
