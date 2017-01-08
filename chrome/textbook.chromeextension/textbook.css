@@ -36,6 +36,8 @@ video._ox1,
   opacity:0; 
 }
 
+video._4jhq { opacity:0; } /* profile images as videos */
+
 ._4n1w, /* X years ago see your memories banners */ 
 ._4m1w /* X years ago see your memories banners */
 { 
@@ -47,6 +49,7 @@ video._ox1,
 ._1oxj ._3j7l,  /* restore Like icon in reactions popup */
 ._1gr3 i.img,   /* restore "..." img in status editor */
 ._6m3,          /* linked item descriptions */
+._1kfk video, ._1kfk img,   /* video slideshows */
 ._3u17 i        /* X buttons on status post box, etc. */
 { 
   opacity:1; 

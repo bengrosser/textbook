@@ -1,9 +1,11 @@
 // Textbook
 // 2017
 // Grosser
+//
+// thx to maddie for beta testing
 
 // undo of the injected CSS
-var notbcss = 'div[role="img"], img,	._4ay8, ._6ks,  ._9--, .img,  ._2n_9, ._3j7l, ._51mq, ._5nxw, button._q52, .uiMediaThumbImg, .UFILikeLink::before, .comment_link::before, .share_action_link::before, ._qk8, .webMessengerMessageGroup img._50dv { opacity:1; } img._3chq,  ._1445, video._ox1, ._3x-2 video { opacity:1; } ._4n1w, ._4m1w { opacity:1; background-position:0px, 0x !important; } ._1oxj ._3j7l,  ._1gr3 i.img,   ._6m3, ._3u17 i { opacity:1; } ._jfc { background-color:#ccc; } .stage img { opacity:1; } .uiMediaThumbImg, .albumThumbLink img, .fbPhotoStarGridElement img, .fbPhotoStarGridElement i, .fbPhotoSnowLiftContainer img, .fbPhotoSnowLiftContainer i { opacity:1; } ._52kr, .webMessengerMessageGroup img, .conversation img, #webMessengerRecentMessages img, #wmMasterViewThreadlist img, ._4-of img, ._4-of i { opacity:1; } ._2md { opacity:1; }';
+var notbcss = 'div[role="img"], img,	._4ay8, ._6ks,  ._9--, .img,  ._2n_9, ._3j7l, ._51mq, ._5nxw, button._q52, .uiMediaThumbImg, .UFILikeLink::before, .comment_link::before, .share_action_link::before, ._qk8, .webMessengerMessageGroup img._50dv { opacity:1; } img._3chq,  ._1445, video._ox1, ._3x-2 video { opacity:1; } ._4n1w, ._4m1w { opacity:1; background-position:0px, 0x !important; } ._1oxj ._3j7l,  ._1gr3 i.img,   ._6m3, ._3u17 i { opacity:1; } ._jfc { background-color:#ccc; } .stage img { opacity:1; } .uiMediaThumbImg, .albumThumbLink img, .fbPhotoStarGridElement img, .fbPhotoStarGridElement i, .fbPhotoSnowLiftContainer img, .fbPhotoSnowLiftContainer i { opacity:1; } ._52kr, .webMessengerMessageGroup img, .conversation img, #webMessengerRecentMessages img, #wmMasterViewThreadlist img, ._4-of img, ._4-of i { opacity:1; } ._2md { opacity:1; } video._4jhq { opacity:1; }';
 
 
 $(document).ready(function() { 
@@ -21,7 +23,7 @@ $(document).ready(function() {
         sendResponse({farewell: "msg rcvd"});
     });
 
-    console.log("Textbook (2017), ver. 1.0.1 -- by Ben Grosser");
+    console.log("Textbook (2017), ver. 1.0.2 -- by Ben Grosser");
 
     // on first load, grab all saved data and respond
     chrome.storage.local.get("on", function(data) {
