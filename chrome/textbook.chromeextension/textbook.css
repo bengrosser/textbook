@@ -9,6 +9,7 @@
 
 div[role="img"],
 img,	
+._2orx img,
 ._4ay8, 
 ._6ks,  /* linked article image holders */
 ._9--,  /* reaction images (like, haha, etc) */
@@ -27,6 +28,25 @@ button._q52, /* 3D image nav icons */
 { 
   opacity:0; 
 } 
+
+/* status text background images */
+div._5qxm._5qxn._620g {
+  background-position:-1000px -1000px;
+  background-repeat:no-repeat;
+}
+
+/* memory header background images */
+div._3l4c {
+  background-position:-1000px -1000px !important;
+}
+
+/* 3d images */
+div._623m div:nth-child(1) {
+  background-position:-1000px -1000px !important;
+  background-size:0 !important;
+}
+div._623m canvas { opacity:0; }
+
 
 /* videos */
 img._3chq,  
@@ -50,7 +70,8 @@ video._4jhq { opacity:0; } /* profile images as videos */
 ._1gr3 i.img,   /* restore "..." img in status editor */
 ._6m3,          /* linked item descriptions */
 ._1kfk video, ._1kfk img,   /* video slideshows */
-._3u17 i        /* X buttons on status post box, etc. */
+._3u17 i,        /* X buttons on status post box, etc. */
+i._4m1y         /* 'see your memories >' caret */
 { 
   opacity:1; 
 } 
