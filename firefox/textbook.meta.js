@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name Textbook
-// @version 1.0.2
+// @version 1.0.3
 // @namespace com.bengrosser.textbook
 // @description Removes images from Facebook, leaving only text
 // @updateURL http://bengrosser.com/share/tb/textbook.meta.js
